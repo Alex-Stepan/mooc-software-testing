@@ -36,4 +36,10 @@ public class RomanNumeralTestWithBeforeEach {
         int result = roman.convert("XLIV");
         Assertions.assertEquals(44, result);
     }
+
+    @Test
+    public void AlexBirthday(){
+        int result = roman.convert("MCMLXXXIV");
+        Assertions.assertEquals(1984, result);
+    }
 }
